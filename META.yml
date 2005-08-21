@@ -1,0 +1,16 @@
+name: JSAN-Mini
+version: 0.01
+abstract: Creates minimal mirrors of JSAN for offline installation
+author: Adam Kennedy <cpan@ali.as>
+license: perl
+distribution_type: module
+build_requires:
+  File::Spec: 0.80
+  Test::More: 0.47
+requires:
+  perl: 5.005
+  JSAN::Client: 0.06
+no_index:
+  directory:
+    - inc
+generated_by: Module::Install version 0.37
