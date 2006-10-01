@@ -1,18 +1,17 @@
-
+abstract: Creates a minimal local mirror of JSAN for offline installation
+author: Adam Kennedy <cpan@ali.as>, L<http://ali.as/>
+build_requires: 
+  File::Spec: 0.80
+  Test::More: 0.47
+distribution_type: module
+generated_by: Module::Install version 0.64
+license: perl
+name: JSAN-Mini
 no_index: 
   directory: 
     - inc
     - t
-generated_by: Module::Install version 0.63
-distribution_type: module
-version: 0.02
-name: JSAN-Mini
-author: Adam Kennedy <cpan@ali.as>, L<http://ali.as/>
-license: perl
-build_requires: 
-  Test::More: 0.47
-  File::Spec: 0.80
 requires: 
+  JSAN::Client: 0.14
   perl: 5.005
-  JSAN::Client: 0.12
-abstract: Creates a minimal local mirror of JSAN for offline installation
+version: 0.03
