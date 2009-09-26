@@ -5,8 +5,8 @@ NAME
 SYNOPSIS
       # Update your local minijsan using default settings
       JSAN::Mini->update_mirror;
-  
-      # ... and for now that's about it :)
+      
+  # ... and for now that's about it :)
 
 DESCRIPTION
     minijsan is an application which scans the JSAN index and ensures that
@@ -82,10 +82,10 @@ SUPPORT
     For other issues, contact the author.
 
 AUTHOR
-    Adam Kennedy <cpan@ali.as>, <http://ali.as/>
+    Adam Kennedy <adamk@cpan.org>, <http://ali.as/>
 
 COPYRIGHT
-    Copyright 2005 Adam Kennedy. All rights reserved.
+    Copyright 2005, 2009 Adam Kennedy.
 
     This program is free software; you can redistribute it and/or modify it
     under the same terms as Perl itself.
